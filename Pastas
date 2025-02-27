@@ -1,0 +1,19 @@
+CryptoMaster_v3/
+├── /core/
+│   └── trader.py         # Lógica principal do robô
+├── /strategies/
+│   ├── scalping.py       # Estratégia de scalping
+│   └── swing.py          # Estratégia de swing
+├── /data/
+│   └── fetcher.py        # Coleta de dados
+├── /dashboards/
+│   └── app.py            # Dashboard em tempo real
+├── /reports/
+│   └── report.py         # Geração de relatórios
+├── /utils/
+│   └── __init__.py       # (Vazio, para modularidade futura)
+├── main.py               # Arquivo de execução principal
+├── config.yaml           # Configurações
+├── requirements.txt      # Dependências
+├── Dockerfile            # Para deploy em container
+└── README.md             # Instruções gerais

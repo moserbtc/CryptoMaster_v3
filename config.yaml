@@ -1,0 +1,14 @@
+exchanges:
+  binance:
+    api_key: "SUA_CHAVE_API_AQUI"
+    api_secret: "SUA_CHAVE_SECRETA_AQUI"
+  uniswap:
+    wallet: "SEU_ENDEREÇO_WALLET"
+    private_key: "SUA_CHAVE_PRIVADA"
+trading:
+  initial_capital: 10000
+  risk_per_trade: 0.02  # 2%
+  daily_target: 0.005   # 0.5%
+data:
+  timeframe_scalp: "1m"
+  timeframe_swing: "4h"
